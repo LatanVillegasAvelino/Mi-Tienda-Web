@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDeals - Ofertas en Tecnología</title>
+    <meta name="description" content="Las mejores ofertas en tecnología y electrónica">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header inspirado en Knasta -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>TechDeals</h1>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar productos..." class="search-input">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                
+                <div class="nav-actions">
+                    <button class="nav-btn">
+                        <i class="fas fa-user"></i>
+                        <span>Mi Cuenta</span>
+                    </button>
+                    <button class="nav-btn cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section inspirado en Compy -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Tecnología a Precios Increíbles</h2>
+            <p class="hero-subtitle">Descubre las mejores ofertas en laptops, smartphones y gadgets</p>
+            <button class="cta-button">Ver Ofertas</button>
+        </div>
+        <div class="hero-image">
+            <div class="placeholder-image">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categorías inspirado en Knasta -->
+    <section class="categories">
+        <h3 class="section-title">Categorías Populares</h3>
+        <div class="categories-grid">
+            <div class="category-card" data-category="laptops">
+                <i class="fas fa-laptop"></i>
+                <span>Laptops</span>
+            </div>
+            <div class="category-card" data-category="phones">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Smartphones</span>
+            </div>
+            <div class="category-card" data-category="tablets">
+                <i class="fas fa-tablet-alt"></i>
+                <span>Tablets</span>
+            </div>
+            <div class="category-card" data-category="accessories">
+                <i class="fas fa-headphones"></i>
+                <span>Accesorios</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos en oferta -->
+    <section class="featured-products">
+        <h3 class="section-title">Ofertas Destacadas</h3>
+        <div class="products-grid" id="productsGrid">
+            <!-- Los productos se cargarán con JavaScript -->
+        </div>
+    </section>
+
+    <!-- Newsletter inspirado en Compy -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h3>¡No te pierdas nuestras ofertas!</h3>
+            <p>Suscríbete y recibe las mejores promociones en tecnología</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Tu correo electrónico" class="email-input">
+                <button class="subscribe-btn">Suscribirse</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TechDeals</h4>
+                <p>Las mejores ofertas en tecnología del mercado</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> info@techdeals.com</p>
+                <p><i class="fas fa-phone"></i> +51 999 888 777</p>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechDeals. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
